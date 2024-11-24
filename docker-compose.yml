@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:latest
+    environment:
+      - MONGO_URI_DEV=mongodb://localhost:27017/ecommerce
+      - MONGO_URI_PROD=mongodb+srv://user:user@cluster0.1c9llif.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0
+    ports:
+      - "27017:27017"
+
+  app:
+    build: .
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - mongo
+    ports:
+      - "3000:3000"
