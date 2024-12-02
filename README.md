@@ -57,9 +57,6 @@ This project provides a server-side application aimed at efficiently managing sa
 - Supports deployment with Docker on cloud services like AWS, Azure, or GCP.
 - Easily scalable and manageable with Docker Compose.
 
-## License
-This project is licensed under the **ISC** license. Refer to the `LICENSE` file for more details.
-
 ## Contributions
 Feel free to submit issues or pull requests to contribute to this project.
  
@@ -123,9 +120,6 @@ Dự án này cung cấp một ứng dụng phía server nhằm quản lý dữ 
 ## Triển khai
 - Hỗ trợ triển khai bằng Docker lên các dịch vụ cloud như AWS, Azure, hoặc GCP.
 - Dễ dàng mở rộng và quản lý với Docker Compose.
-
-## Giấy phép
-Dự án này được cấp phép theo giấy phép **ISC**. Tham khảo chi tiết trong tệp `LICENSE`.
 
 ## Đóng góp
 Hãy thoải mái gửi các vấn đề (issues) hoặc yêu cầu hợp nhất (pull requests) để đóng góp cho dự án.
